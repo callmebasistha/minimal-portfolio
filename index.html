@@ -8,103 +8,159 @@
     <link rel="shortcut icon" href="./assets/logo/fabicon-04.png" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/b50e7507d6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-
     <title>Portfolio</title>
 </head>
 
 <body>
-    <nav>
+    <nav id="nav">
         <div class="nav-section">
-            <img src="./assets/logo/bigyan logo black-06.png" alt="" />
+            <a href="#home">
+                <img src="./assets/logo/bigyan logo black-06.png" alt="" />
+            </a>
         </div>
         <div class="nav-section">
             <ul>
-                <li><a href="" class="nav-link-ltr">HOME</a>
+                <li><a href="#home" class="nav-link-ltr active">HOME</a>
+                </li>
+                <li><a href="#what" class="nav-link-ltr">WHAT</a>
                 </li>
 
-                <li><a href="" class="nav-link-ltr">SKILLS</a>
-                </li>
-
-                <li><a href="" class="nav-link-ltr">WHAT</a>
-                </li>
-
-                <li><a href="" class="nav-link-ltr">WORK</a>
+                <li><a href="#work" class="nav-link-ltr">WORK</a>
                 </li>
             </ul>
         </div>
         <div class="nav-section">
             <ul>
-                <li><a href="" class="nav-link-ltr" nav-link-ltr>CONTACT</a>
+                <li><a href="#contact" class="nav-link-ltr" nav-link-ltr>CONTACT</a>
                     <div class="nav-link-ltr"></div>
                 </li>
             </ul>
         </div>
     </nav>
-    <section class="master">
-        <div class="landing landing-text-desc">
+    <section class="master d-block" id="home">
+        <div class="landing landing-text-desc" id="landing-left">
             <span><span>I am a </span><br>Graphics Designer/Java/Web Developer</span>
-            <p>My focus is on creating visually stunning user interfaces that enhance the user experience on your
-                website.
-                I have a strong passion for turning ideas into tangible results.</p>
+            <p> A Backend Developer who is proficient in Java and Laravel, and a skilled Graphics and UI/UX Designer who
+                can create exceptional digital experiences.</p>
             <div class="social-links">
-                <i class="fa-brands fa-instagram fa-xl"></i>
-                <i class="fa-brands fa-github fa-xl"></i>
-                <i class="fa-brands fa-linkedin fa-xl"></i>
+                <a href="https://instagram.com/callmebasistha" target="_blank">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                </a>
+                <a href="https://github.com/callmebasistha" target="_blank">
+                    <i class="fa-brands fa-github fa-xl"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/bigyan-kharel-372313136/" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                </a>
+                <a href="mailto:callmebasistha@gmail.com" target="_blank">
+                    <i class="fa-brands fa-google fa-xl"></i>
+                </a>
             </div>
             <div class="landing-shapes"></div>
             <div class="landing-shapes"></div>
             <div class="landing-shapes"></div>
         </div>
-        <div class="landing">
+        <div class="landing" id="landing-right">
             <p>
-                Hello <br />
-                I'm <br /><span>
-                    Bigyan.
-                </span>
+                <span>
+                    Hi !
+                </span><br />
+                I'm <br />
+                Bigyan.
             </p>
         </div>
     </section>
-    <section class="skills">
-        <div class="background-text">
-            <p>
-                SKI <br>LLS.
-            </p>
+    <section class="skills" id="skills">
+        <div class="col">
+            <img src="./assets/programming/java.png" alt="">
         </div>
-        <div class="row">
-            <div class="col">
-                <img src="./assets/programming/java.png" alt="">
+        <div class="col">
+            <img src="./assets/programming/git.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/programming/github.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/programming/laravel.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/programming/mysql.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/programming/figma.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/programming/illustrator.png" alt="">
+        </div>
+        <div class="col">
+            <img src="./assets/programming/spring.png" alt="">
+        </div>
+    </section>
+    <section class="services " id="what">
+        <div class="col">
+            <span class="vertical">
+                Design
+            </span>
+            <div class="contents">
+                <ul>
+                    <li>Branding</li>
+
+                    <li>UX</li>
+
+                    <li>Visual Design</li>
+
+                    <li>Illustration</li>
+                    <li>Logo</li>
+                    <li>Prototype</li>
+                </ul>
             </div>
-            <div class="col">
-                <img src="./assets/programming/git.png" alt="">
-            </div>
-            <div class="col">
-                <img src="./assets/programming/github.png" alt="">
-            </div>
-            <div class="col">
-                <img src="./assets/programming/laravel.png" alt="">
-            </div>
-            <div class="col">
-                <img src="./assets/programming/mysql.png" alt="">
-            </div>
-            <div class="col">
-                <img src="./assets/programming/figma.png" alt="">
-            </div>
-            <div class="col">
-                <img src="./assets/programming/illustrator.png" alt="">
-            </div>
-            <div class="col">
-                <img src="./assets/programming/spring.png" alt="">
+        </div>
+        <div class="col">
+            <span>
+                Develop
+            </span>
+            <div class="contents">
+                <ul>
+                    <li>Web Application</li>
+
+                    <li>Enterprise Application</li>
+
+                    <li>Website</li>
+
+                </ul>
             </div>
         </div>
     </section>
-    <section class="services">
-        <div class="service-left">
-            <div class="service-col">Design</div>
-            <div class="service-col">Develop</div>
-            <div class="service-col">Deploy</div>
+    <section class="work" id="work">
+        <div class="col"></div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="col">
+            <div class="social-links">
+                <a href="https://instagram.com/callmebasistha" target="_blank">
+                    <i class="fa-brands fa-instagram fa-xl"></i>
+                    <span>callmebasistha</span>
+                </a>
+                <a href="https://github.com/callmebasistha" target="_blank">
+                    <i class="fa-brands fa-github fa-xl"></i>
+                    <span>callmebasistha</span>
+                </a>
+                <a href="https://www.linkedin.com/in/bigyan-kharel-372313136/" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-xl"></i>
+                    <span>Bigyan Kharel</span>
+                </a>
+            </div>
         </div>
-        <div class="service-right"><span>WHAT</span></div>
+        <div class="col"> <img src="./assets/Avatar.svg" alt=""></div>
+        <div class="col">
+            <p>Bigyan Kharel</p>
+            <p>Kathmandu, Nepal</p>
+            <p>44600</p>
+            <p> <a href="tel:+9779816956664">+9779816956664 </a></p>
+        </div>
     </section>
 </body>
+
+<script src="index.js" type="text/javascript"></script>
 
 </html>
